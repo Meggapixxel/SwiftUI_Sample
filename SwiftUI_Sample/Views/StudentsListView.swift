@@ -25,7 +25,7 @@ struct StudentsListView: View {
                         Text(item.id)
                     }
                 }
-            }
+            }.navigationBarTitle("Students")
         }
     }
 }

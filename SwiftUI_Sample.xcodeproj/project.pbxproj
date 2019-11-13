@@ -18,6 +18,9 @@
 		BC26F38E237B86FB00C4D8BF /* ColorsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC26F384237B86FB00C4D8BF /* ColorsView.swift */; };
 		BC26F38F237B86FB00C4D8BF /* HeartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC26F385237B86FB00C4D8BF /* HeartView.swift */; };
 		BC26F391237B871900C4D8BF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC26F390237B871900C4D8BF /* ContentView.swift */; };
+		BC26F393237B876600C4D8BF /* TextsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC26F392237B876600C4D8BF /* TextsView.swift */; };
+		BC26F395237B88C900C4D8BF /* ViewWithViewModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC26F394237B88C900C4D8BF /* ViewWithViewModifier.swift */; };
+		BC26F397237B894500C4D8BF /* AlertsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC26F396237B894500C4D8BF /* AlertsView.swift */; };
 		BC907E20237B1FCE002BCF2A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC907E1F237B1FCE002BCF2A /* AppDelegate.swift */; };
 		BC907E22237B1FCE002BCF2A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC907E21237B1FCE002BCF2A /* SceneDelegate.swift */; };
 		BC907E26237B1FD0002BCF2A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC907E25237B1FD0002BCF2A /* Assets.xcassets */; };
@@ -37,6 +40,9 @@
 		BC26F384237B86FB00C4D8BF /* ColorsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorsView.swift; sourceTree = "<group>"; };
 		BC26F385237B86FB00C4D8BF /* HeartView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeartView.swift; sourceTree = "<group>"; };
 		BC26F390237B871900C4D8BF /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		BC26F392237B876600C4D8BF /* TextsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextsView.swift; sourceTree = "<group>"; };
+		BC26F394237B88C900C4D8BF /* ViewWithViewModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewWithViewModifier.swift; sourceTree = "<group>"; };
+		BC26F396237B894500C4D8BF /* AlertsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertsView.swift; sourceTree = "<group>"; };
 		BC907E1C237B1FCE002BCF2A /* SwiftUI_Sample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUI_Sample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC907E1F237B1FCE002BCF2A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BC907E21237B1FCE002BCF2A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -71,6 +77,9 @@
 				BC26F37F237B86FB00C4D8BF /* RotatedView.swift */,
 				BC26F37C237B86FB00C4D8BF /* StudentsListView.swift */,
 				BC26F390237B871900C4D8BF /* ContentView.swift */,
+				BC26F392237B876600C4D8BF /* TextsView.swift */,
+				BC26F394237B88C900C4D8BF /* ViewWithViewModifier.swift */,
+				BC26F396237B894500C4D8BF /* AlertsView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -183,13 +192,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BC26F395237B88C900C4D8BF /* ViewWithViewModifier.swift in Sources */,
 				BC26F38E237B86FB00C4D8BF /* ColorsView.swift in Sources */,
+				BC26F397237B894500C4D8BF /* AlertsView.swift in Sources */,
 				BC26F389237B86FB00C4D8BF /* RotatedView.swift in Sources */,
 				BC907E20237B1FCE002BCF2A /* AppDelegate.swift in Sources */,
 				BC907E22237B1FCE002BCF2A /* SceneDelegate.swift in Sources */,
 				BC26F38D237B86FB00C4D8BF /* MapView.swift in Sources */,
 				BC26F38A237B86FB00C4D8BF /* MountainView.swift in Sources */,
 				BC26F38C237B86FB00C4D8BF /* ColorsZStackView.swift in Sources */,
+				BC26F393237B876600C4D8BF /* TextsView.swift in Sources */,
 				BC26F387237B86FB00C4D8BF /* ColorsVStackView.swift in Sources */,
 				BC26F38B237B86FB00C4D8BF /* MultilineView.swift in Sources */,
 				BC26F386237B86FB00C4D8BF /* StudentsListView.swift in Sources */,

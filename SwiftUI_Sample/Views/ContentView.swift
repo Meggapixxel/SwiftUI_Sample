@@ -30,6 +30,7 @@ struct ContentView: View {
                 NavigationLink(destination: RotatedView()) {
                     Text("RotatedView")
                 }
+                StudentsListView()
                 
             }
         }
